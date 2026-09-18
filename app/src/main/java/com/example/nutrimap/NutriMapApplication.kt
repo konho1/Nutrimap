@@ -10,7 +10,7 @@ class NutriMapApplication : Application() {
 
         KakaoMapSdk.init(
             this,
-            2fb03af2c2a1e83106b8c6abfbe6e408
+            BuildConfig.KAKAO_NATIVE_APP_KEY
         )
     }
 }
